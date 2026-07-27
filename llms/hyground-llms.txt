@@ -1,0 +1,81 @@
+# Hyground
+
+> Hyground is a sovereign AI SRE agent for enterprise incident resolution. It runs entirely inside customer infrastructure, correlates Kubernetes, observability and CI/CD data to produce evidence-backed root cause analysis, and automates the repeatable operations work engineers run manually.
+
+Hyground is a multi-agent system for site reliability engineering, deployed inside customer environments. Built for GDPR, BaFin, DORA and NIS2.
+
+## Product
+
+- [Architecture](https://hyground.ai/product/architecture): Signals come in, agents investigate in a sandboxed workspace, results land in your tools. Self-hosted, read-only by default, on the model you choose.
+- [Integrations](https://hyground.ai/product/integrations): Connect Kubernetes, Prometheus, Loki, Jira, GitHub, Slack, and more. Self-hosted, read-only by default. No data leaves your perimeter.
+- [Product](https://hyground.ai/product/overview): A self-hosted AI SRE agent that runs inside your own perimeter. Autonomous incident response, scheduled skills, and a sovereign control plane.
+- [Scheduling](https://hyground.ai/product/scheduling): Run Hyground skills on a schedule, on demand, or on event. Proactive IT operations that catch problems before pages fire and audits run cold.
+- [Security & Compliance](https://hyground.ai/product/security): Hyground runs self-hosted with scoped identity and read-only defaults. Meets GDPR, BaFin, DORA, and NIS2 requirements without external data flow.
+- [Skills](https://hyground.ai/product/skills): Compose Hyground agents from typed skills for provisioning, incident response, and change management: versioned, auditable, reusable across teams.
+- [Triggers](https://hyground.ai/product/triggers): Start Hyground agents from webhooks, schedules, email inboxes, or any external event. Turn passive signals into autonomous IT operations safely.
+- [What sets Hyground apart](https://hyground.ai/product/comparison): See how Hyground compares to other AI platforms for Kubernetes operations. Honest, architecture-led trade-offs that help you pick the right fit.
+
+## Use Cases
+
+- [Audit RBAC drift across every cluster](https://hyground.ai/use-cases/rbac-drift): Audit every binding that grants cluster-admin or wildcard verbs across every cluster. Subject attribution, change history, recommended remediation.
+- [CVE blast-radius mapping, on the day the CVE drops](https://hyground.ai/use-cases/cve-blast-radius): When a CVE drops, Hyground returns every affected workload, owner team, and upgrade path. No external scanner. Read-only kubectl and Git.
+- [Incident Investigation](https://hyground.ai/use-cases/incident-investigation): From alert to evidence-backed root cause in minutes. Hyground correlates logs, metrics, configs, and deploys across your stack without manual triage.
+- [NIS2 and DORA operational readiness](https://hyground.ai/use-cases/nis2-dora): NIS2 and DORA reach software vendors through their customers. See which obligations Hyground can evidence in your stack, read-only and self-hosted.
+- [Weekly cluster right-sizing, auto-prepared](https://hyground.ai/use-cases/cluster-right-sizing): A weekly cluster right-sizing pass prepared in your perimeter. Over- and under-provisioned workloads, HPA fixes, monthly cost delta included.
+- [Weekly infrastructure cost-movement triage](https://hyground.ai/use-cases/infrastructure-cost-analysis): Triage this week's cost movers across AWS, Azure and GCP. Top deltas with cause and owner routing, ready Monday morning.
+- [Workflow Automation](https://hyground.ai/use-cases/workflow-automation): Run autonomous IT operations on a schedule: CVE impact, change risk, cluster health, cost triage. Hyground executes the jobs your team runs manually.
+
+## Company
+
+- [Book a demo](https://hyground.ai/book-demo): See Hyground run inside your environment. A guided demo for European enterprises that need sovereign AI operations with GDPR and DORA built in.
+- [Company](https://hyground.ai/company): Meet the founders behind Hyground: entrepreneurs and architects with deep DevOps and generative AI expertise, building sovereign IT operations.
+- [Contact](https://hyground.ai/contact): Reach Hyground for product enquiries, partnerships, and support across Europe. Our team responds within one business day from Hamburg headquarters.
+- [Deutsche Bahn: faster incident diagnosis](https://hyground.ai/whitepapers/deutsche-bahn): Deutsche Bahn: faster incident diagnosis
+- [Events and Webinars](https://hyground.ai/resources/events): Conferences and webinars where we present Hyground and discuss sovereign AI operations with European platform and SRE leaders.
+- [From Chaos to Clarity](https://hyground.ai/resources-ebook): From Chaos to Clarity
+- [Home](https://hyground.ai/): Sovereign AI SRE agent that resolves incidents, runs operations on a schedule, and stays inside your perimeter. Built for European compliance.
+- [Hyground für DeepL](https://hyground.ai/d1a62dbf-ccc9-4b8b-a335-077b492968c9): Eine maßgeschneiderte Übersicht über Hyground als sovereign AI SRE in eurem Cluster. Read-only by default, jeder Schritt auditierbar. Mai 2026.
+- [Hyground vs AWS DevOps Agent](https://hyground.ai/comparison/vs-aws-devops-agent): AWS DevOps Agent is an AWS-managed service with multi-cloud adapters. Hyground runs in your own Kubernetes cluster, on any cloud, with your own LLM.
+- [Hyground vs Claude Code](https://hyground.ai/comparison/vs-claude-code): Compare Hyground and Claude Code for incident response. In-cluster AI for incident response versus a developer CLI that ships tool outputs to Anthropic.
+- [Hyground vs DIY](https://hyground.ai/comparison/vs-diy): Compare Hyground's managed AI operations platform with building your own from open-source agents like OpenClaw. See the real cost of running it in production.
+- [Hyground vs Dash0](https://hyground.ai/comparison/vs-dash0): Compare Hyground and Dash0 for incident response. Hyground runs inside your own perimeter and reads every source you already run, not only Dash0 telemetry.
+- [Hyground vs Datadog Bits AI](https://hyground.ai/comparison/vs-datadog-bits-ai): Compare Hyground and Datadog Bits AI SRE for incident response. Hyground runs in your cluster and reads every data source. Bits AI SRE is SaaS, capped at Datadog ingest.
+- [Hyground vs K8sGPT](https://hyground.ai/comparison/vs-k8sgpt): Compare Hyground and K8sGPT for Kubernetes incident response. A supported, in-cluster platform versus a CNCF Sandbox CLI scanner with no commercial owner.
+- [Hyground vs Komodor](https://hyground.ai/comparison/vs-komodor): Compare Hyground and Komodor. Hyground covers Kubernetes plus cloud APIs, observability, ITSM, and your wikis, inside your cluster. Komodor is a Kubernetes SaaS.
+- [Hyground vs PagerDuty SRE Agent](https://hyground.ai/comparison/vs-pagerduty-sre-agent): Compare Hyground and PagerDuty SRE Agent for incident response. An in-cluster agent with a live infrastructure graph versus a SaaS add-on bolted onto on-call paging.
+- [Hyground vs Resolve AI](https://hyground.ai/comparison/vs-resolve-ai): Compare Hyground and Resolve AI for incident investigation. Hyground installs in-cluster under EU jurisdiction; Resolve runs in a US SaaS cloud.
+- [Hyground vs Rootly](https://hyground.ai/comparison/vs-rootly): Compare Hyground and Rootly for incident response. An in-cluster investigation engine versus a SaaS incident management platform with AI features.
+- [Partners](https://hyground.ai/partners): Listed on Microsoft, AWS and StackIT. Backed by adesso. Delivered with MaibornWolff and AutomateOps. The partners behind sovereign AI SRE.
+- [Pricing](https://hyground.ai/pricing): Hyground prices on infrastructure size, not seats. Share details about your environment and get a tailored quote for our self-hosted SRE platform.
+- [Terms of Use](https://hyground.ai/terms-of-use): Terms of Use for the "Hyground" software by Hyground GmbH, covering licence, support, liability, and the PoC Phase.
+- [The Compliance-First SRE Agent](https://hyground.ai/whitepapers/compliance-first-sre-agent): Run Hyground as an AI SRE agent inside your own Kubernetes cluster. No outbound data, no vendor access, bring-your-own model. Audit-ready for DSGVO, BaFin, and HIPAA.
+- [Try Sandbox](https://hyground.ai/try-hyground-sandbox): Open a live Hyground environment in your browser. Trigger skills, watch the agent investigate sample incidents, and explore the platform without setup.
+- [Video course](https://hyground.ai/video-course): Short videos covering AI SRE basics, Hyground sessions, the recurring operations work the agent handles, and how customers use it in production.
+- [Videos](https://hyground.ai/resources/videos): Product demos, customer stories, and founder conversations. Watch the Hyground story across the channels covering it.
+- [Whitepapers](https://hyground.ai/resources/whitepapers): Architecture, security, and operational practice papers written by the Hyground engineering team. Designed for platform leads, SREs, and security engineers evaluating autonomous operations in regulated European environments.
+
+## Blog
+
+- [How to Manage 20,000 Workloads with an IT Operations Agent](https://hyground.ai/blog/hyground-2-0): Real IT landscapes are wild gardens: three logging stacks from two acquisitions, Argo CD next to Flux, strict segmentation everywhere. AI agent demos assume the opposite. Hyground 2.0 closes that gap with one IT operations agent across your entire landscape: 20,000+ workloads, 40+ clusters, and hundreds of connections into observability stacks, databases, cloud accounts, and ticket systems, all in one conversation. A thin outpost per environment keeps credentials local, access stays read-only by default, and no data leaves your infrastructure. Plus: why we built a multi-agent system first, and why we tore it out.
+- [Are AI SRE Agents Useful or Just Hype?](https://hyground.ai/blog/are-ai-sre-agents-useful-or-just-hype): AI SRE agents are simultaneously overhyped and genuinely valuable: an agent that runs its own investigation and links every finding to checkable evidence is useful, while a tool that just summarizes the dashboards you already had is hype. Here is how to tell them apart before you buy, with Gartner and SRE Report evidence for both sides.
+- [Top 10 AI ops platforms in 2026](https://hyground.ai/blog/top-10-ai-ops-platforms-2026): A practical comparison of the top 10 AI ops platforms in 2026, from autonomous SRE agents to AIOps incumbents. How they investigate, where they run, and who each one fits.
+- [Five OWASP hurdles for your AI SRE](https://hyground.ai/blog/five-hurdles-owasp-ai-sre): Twenty OWASP risks, but for an AI SRE agent they can be collapsed into five hard hurdles between a working demo and production you can trust.
+- [Unfabled and Unfazed](https://hyground.ai/blog/unfabled-and-unfazed): When the US ordered Anthropic to switch Fable 5 off for every foreign national three days after launch, Hyground customers changed one setting and kept running. Hyground is bring-your-own-model, built in Germany, and can run air-gapped on your own LLMs. Your data stays in your stack, and the model is a swappable part, not a dependency you cannot revoke.
+- [From dev agent to SRE agent: eight things your team has to solve](https://hyground.ai/blog/from-dev-agent-to-sre-agent): Pointing Claude Code at your cluster and watching it diagnose a CrashLoopBackOff looks impressive. The gap from that demo to an SRE agent your team trusts in production is eight hard problems, and most aren't solved by the model at all.
+- [What is an AI SRE?](https://hyground.ai/blog/what-is-an-ai-sre): An AI SRE is an autonomous, LLM-powered agent that triages alerts, investigates incidents, and finds root causes across production systems without step-by-step human direction. The role is emerging just as AI-generated code pushes operational toil to its first rise in five years. What AI SREs do, where they run, and how to evaluate one.
+- [What the OWASP Top 10 for Agentic Applications Means for AI SRE Agents](https://hyground.ai/blog/what-owasp-top-10-for-agentic-applications-means-for-ai-sre-agents): OWASP's Top 10 for Agentic Applications is the threat model for AI agents in production systems. Here is what each of the ten risks means for an AI SRE agent.
+- [What OWASP LLM Top 10 Means for AI SRE Agents](https://hyground.ai/blog/what-owasp-llm-top-10-means-for-ai-sre-agents): OWASP's LLM Top 10 turns from an abstract risk list into a concrete architecture spec the moment you put an AI agent inside your operations loop.
+- [Hyground Partner Ecosystem Update May 2026](https://hyground.ai/blog/partner-update-may-2026): Hyground's partner ecosystem is growing - Azure, AWS, STACKIT, adesso, MaibornWolff and more - plus an honorable mention as a top AI SRE tool for 2026.
+- [What is an SRE?](https://hyground.ai/blog/what-is-an-sre): A Site Reliability Engineer (SRE) is a software engineer who designs and operates production systems using code, measurement, and automation rather than manual operations. The role was created at Google in 2003 and is now one of the most in-demand titles in software. What SREs do, and how the role differs from DevOps.
+- [Top 10 AI SRE Tools in 2026 Comparison](https://hyground.ai/blog/top-10-ai-sre-tools-2026-comparison): Ten leading AI SRE tools in 2026, scored on what procurement actually asks: where data lives, what the agent can touch, who owns the LLM.
+- [What an SRE Agent Can Do For Testers](https://hyground.ai/blog/what-an-sre-agent-can-do-for-testers): Testers lose hours chasing bugs that turn out to be mismatched deploys, conflicting integrations or broken infrastructure. Hyground's SRE Agent gives you the environmental clarity to know whether your next test session will actually produce trustworthy findings, before you start.
+- [Claude Code Is Not an SRE Agent](https://hyground.ai/blog/claude-code-is-not-an-sre-agent): AI is great at observing production systems but can't replace SREs because root cause analysis requires system history, institutional knowledge, and human judgment that models lack.
+- [Hyground Raises €3M Pre-Seed Round Fueling our Ambitions to Redefine Enterprise IT Operations](https://hyground.ai/blog/hyground-raises-3m): Hyground Raises €3M Pre-Seed Round for its Sovereign SRE Agent for Enterprise IT Operations
+- [The AI Treadmill: Why Keeping Up Is the Real Engineering Challenge](https://hyground.ai/blog/the-ai-treadmill): Effective operations require specialized, secure, and centralized agent architectures rather than risky local execution.
+- [Observability Won't Save You at 3 A.M](https://hyground.ai/blog/observability-wont-save-you): Shifting focus from 'full visibility' to automated reasoning and actionability reduces the manual burden on engineers.
+- [The Silent Killer of Your Engineering Culture: Why the 3 AM Call Destroys More Than Just Sleep](https://hyground.ai/blog/the-silent-killer): Anticipatory stress and poor incident context create a toxic cycle of brain drain and high recruiting costs.
+- [Stop Shouting at Your LLM](https://hyground.ai/blog/stop-shouting): Effective steering relies on high-signal structure and hierarchical clarity rather than aggressive, loud wording.
+- [Agentic Behavior: How to Build Reliable AI Agents for Operations](https://hyground.ai/blog/agentic-behaviour): Successful investigation requires autonomous agents that reason and adapt through iterative loops.
+- [The Hidden Token Drain: How Intermediate Results Bloat Your AI Agent's Context](https://hyground.ai/blog/the-hidden-token-drain): Multi-step AI workflows often waste tokens by passing large intermediate tool results through the model's context.
+- [Why 87% of Your Prompt Isn't Your Prompt](https://hyground.ai/blog/why-87-of-your-prompt-isnt-your-prompt): Loading every available tool definition upfront causes significant performance degradation and wastes the model's limited attention budget.
+- [Welcome to the Hyground Blog](https://hyground.ai/blog/welcome-to-the-hyground-blog): Join our journey as we explore how AI is transforming the landscape for DevOps and platform engineering teams.

@@ -1,7 +1,18 @@
 aid: hyground
 name: Hyground
-description: 'Hyground is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: AI/ML. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Hyground GmbH (Hamburg, Germany) builds a sovereign, self-hosted AI SRE
+  (Site Reliability Engineering) agent for European enterprises. The
+  multi-agent platform deploys as a Kubernetes-native Helm chart inside the
+  customer's own perimeter and correlates Kubernetes, observability
+  (Prometheus, Loki, Elasticsearch), cloud (AWS/Azure/GCP), CI/CD, and
+  ticketing data to produce evidence-backed root cause analysis, autonomous
+  incident response, and scheduled operations work such as CVE blast-radius
+  mapping, RBAC drift audits, cluster right-sizing, and cost triage. It runs
+  read-only by default, is bring-your-own-model (Azure OpenAI, Anthropic
+  Claude, Gemini, Bedrock, Ollama), and keeps all data in-cluster with no
+  external egress, targeting GDPR, BaFin, DORA, and NIS2 compliance
+  requirements. Backed by partech; raised a EUR 3M pre-seed round.
 url: https://raw.githubusercontent.com/api-evangelist/hyground/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +20,32 @@ x-backed-by:
 - partech
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://hyground.ai/uploads/hyground_og_img_f5c8198dfa.webp
 tags:
 - Company
 - Ai/Ml
+- Site Reliability Engineering
+- DevOps
+- Kubernetes
+- Incident Response
+- Observability
+- AIOps
+- Compliance
+- Europe
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +55,34 @@ maintainers:
 common:
 - type: Website
   url: https://hyground.ai/
+- type: Documentation
+  url: https://hyground.ai/product/overview
+- type: Blog
+  url: https://hyground.ai/blog
+- type: Pricing
+  url: https://hyground.ai/pricing
+- type: Sandbox
+  url: https://hyground.ai/try-hyground-sandbox
+- type: Support
+  url: https://hyground.ai/contact
+- type: TermsOfService
+  url: https://hyground.ai/terms-of-use
+- type: PrivacyPolicy
+  url: https://hyground.ai/privacy-policy
+- type: Compliance
+  url: https://hyground.ai/product/security
+- type: Conformance
+  url: conformance/hyground-conformance.yml
+- type: DomainSecurity
+  url: security/hyground-domain-security.yml
+- type: LLMsTxt
+  url: llms/hyground-llms.txt
+- type: LinkedIn
+  url: https://www.linkedin.com/company/hyground
+- type: YouTube
+  url: https://www.youtube.com/@Hyground-GmbH
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

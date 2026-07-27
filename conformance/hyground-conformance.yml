@@ -1,0 +1,25 @@
+generated: '2026-07-19'
+method: searched
+source: https://hyground.ai/product/security
+notes: >-
+  Hyground publishes a security & compliance posture rather than third-party
+  audit certifications. It is architected to meet European regulatory
+  frameworks for regulated enterprises (self-hosted, read-only by default,
+  no external data flow, OIDC-scoped identity). The frameworks below are the
+  provider's own published claims, not independently verified certifications.
+standards:
+  - id: gdpr
+    conforms: true
+    evidence: "Security page and llms.txt state Hyground meets GDPR/DSGVO requirements via self-hosted, zero-egress deployment"
+  - id: dora
+    conforms: true
+    evidence: "Built for DORA operational-readiness; dedicated /use-cases/nis2-dora page"
+  - id: nis2
+    conforms: true
+    evidence: "Built for NIS2 obligations; /use-cases/nis2-dora page evidences obligations in customer stack"
+  - id: bafin
+    conforms: true
+    evidence: "Security page and llms.txt cite BaFin (German financial supervisory) requirements"
+  - id: oidc
+    conforms: true
+    evidence: "Sessions, queries, and actions tie to a named user via OIDC (security page)"
