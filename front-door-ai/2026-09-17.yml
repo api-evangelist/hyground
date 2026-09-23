@@ -1,0 +1,34 @@
+# Front Door AI Index — hyground — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: hyground
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: hyground.ai
+  final_host: hyground.ai
+  ownership: own
+  owner: hyground
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 23
+  host_score: 23
+  density: 9.76
+  words: 2357
+  tiers:
+    agentic: 2
+    core: 16
+    model: 5
+  ambiguous: 10
+  top_terms:
+    AI: 9
+    agent: 9
+    LLMs: 6
+    Claude: 3
+    Gemini: 1
+    MCP: 1
+    OpenAI: 1
+    foundation model: 1
+    intelligence: 1
+    prompts: 1
